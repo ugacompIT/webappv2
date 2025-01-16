@@ -1,0 +1,73 @@
+/* Form Input Styles */
+.form-input {
+    width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 0.75rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input::placeholder {
+    color: #9CA3AF;
+  }
+  
+  .form-input:focus {
+    ring: 2px;
+    ring-color: rgb(34, 211, 238);
+  }
+  
+  /* Submit Button Styles */
+  .submit-button {
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-image: linear-gradient(to right, #F97316, #EC4899);
+    color: white;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-image: linear-gradient(to right, #EA580C, #DB2777);
+    transform: scale(1.05);
+  }
+  
+  /* Animation for gradient background */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Hover effects */
+  .form-input:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Focus styles */
+  .form-input:focus {
+    box-shadow: 0 0 0 2px rgba(34, 211, 238, 0.5);
+  }
+  
+  /* Error states - add these classes when implementing form validation */
+  .form-input.error {
+    border: 1px solid #EF4444;
+  }
+  
+  .error-message {
+    color: #EF4444;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
