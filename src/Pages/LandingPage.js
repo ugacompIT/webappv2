@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Calendar, Search, Users, Menu, X } from 'lucide-react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './styles/LandingPage.css';
 
 const LandingPage = () => {
