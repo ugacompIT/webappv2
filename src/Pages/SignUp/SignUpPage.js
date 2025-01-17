@@ -13,7 +13,7 @@ const SignUpPage = () => {
             <span className="text-cyan-400 text-2xl font-bold">AppiSpot</span>
             <div className="w-2 h-2 bg-cyan-400 rounded-full" />
           </a>
-          <a 
+          <a
             href="/"
             className="flex items-center text-white hover:text-cyan-400 transition-colors"
           >
@@ -27,13 +27,16 @@ const SignUpPage = () => {
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8">
             <h1 className="text-3xl font-bold text-white mb-2">Create Account</h1>
             <p className="text-gray-300 mb-6">
-              Join AppiSpot to discover and book amazing venues
+              Create an Account as a Guest or Host. Select appropriately
             </p>
             <SignUpForm />
             <div className="mt-6 text-center">
               <p className="text-gray-300">
                 Already have an account?{' '}
-                <a href="/signin" className="text-cyan-400 hover:text-cyan-300 transition-colors">
+                <a
+                  href="/signin"
+                  className="text-cyan-400 hover:text-cyan-300 transition-colors"
+                >
                   Sign In
                 </a>
               </p>
